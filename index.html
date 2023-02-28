@@ -8,19 +8,130 @@
     <meta name="keywords" content="Pictury, photographie, amateur, exposition, association, art, culture, passion, photo, photos, image">
 
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <title>Pictury</title>
 </head>
 <body>
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="assets/images/" alt="">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Evènements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nous contacter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    </header>
+    <!--Main-->
+    <main>
+        <!--Start first section-->
+        <section class="">
+            <div class="">
+                <div class="">
+                    <h1 class="">Notre passion, la photo de nature et d'animaux !</h1>
+                    <p class="">Notre association regroupe des passionnés de la photographie. Nous photographons les animaux et la nature.
+                        Vous pourrez découvrir tout au long de votre voyage sur notre site, tout notre univers. Bonne visite !</p>
+                </div>
+            </div>
+            <img class="" src="images/appareil-photo_cover.jpg" alt="image représantant un appareil photo">
+        <!--End first section-->
 
-    <footer>
+        <!--Start second section-->
+        <section class="">
+            <h2>Photographie paysagère</h2>
+            <p class="">
+                Les paysages naturels sont magnifiques et pleins de mystère.
+                Il est important de les photoraphier de façon à les montrer tels qu'ils sont.
+            </p>
+            <img class="" src="images/foret.jpg" alt="Photographie d'une forêt.">
+            <p class="">
+                Pour accéder à la galerie photo, c'est 
+                <a href="galerie-photos.html" target="_blank">par ici.</a>
+            </p>
+        </section>
         
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!--End second section-->
+
+        <!--Start third section-->
+        <section class="">
+            <h2>Photographie animalière</h2>
+            <p class="">
+                Photographier l'instant magique de notre rencontre avec un animal dans son habitat naturel. Voilà notre passion.
+            </p>
+            <img class="" src="images/faon.jpg" alt="Photographie d'un faon.">
+            <p class=""> 
+                Pour accéder à la galerie photo, c'est  
+                <a href="galerie-photos.html" target="_blank">par ici.</a>
+            </p>
+        </section>
+        <!--End thrid section-->
+
+        <!--Start fourth section-->
+        <section class="">
+            <h2 class="">Nos évènements.</h2>
+            <p class="">
+                N'hésitez pas à nous rejoindre et à venir participer à nos évènements !
+                Le concours de la photo la plus surprenante aura lieu le 15/12/2022 à Bergerac.
+                Pour toute participation, inscrivez-vous en prenant <a href="#contact">contact</a> avec nous avant le 30/11/2022.
+                Pour consulter notre agenda, c'est <a href="evenements.html" target="_blank">par là.</a>
+            </p>
+        </section>
+        <!--End fourth section-->
+
+        <!--Start fith section-->
+        <section class="">
+            <h2 class="">Nous contacter</h2>
+            <p class="">
+                Pour toutes informations, ou participation à nos évènements; ou si vous souhaitez faire parti de l'association, n'hésitez pas à nous contacter.
+                Nous répondrons avec plaisir !
+            </p>
+            <div class="" id="contact">
+                <div class="">
+                    <img class="" src="" alt="">
+                    <p class="">Par téléphone : 04 94 04 94 04</p>
+                </div>
+                <div class="">
+                    <img class="" src="" alt="">
+                    <p class="">
+                        Par e-mail : 
+                        <a href="association-pictures-and-compagny@gmail.com">association-pictures-and-compagny@gmail.com</a>
+                    </p>
+                </div>
+                <div class="">
+                    <img class="" src="" alt="">
+                    <p class="">Ou sur les réseaux sociaux en tapant : assocation Pictures and Compagny.</p>
+                </div>
+            </div>
+            <p class="">A très vite !</p>
+        </section>
+        <!--End fith section-->
+
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2022 Company, Inc</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
