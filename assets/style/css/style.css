@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.presentation__title {
+  font-family: "squada one", sans-serif;
+  font-size: 5rem;
+}
+
+.presentation-contacts__title, .presentation-events__title, .presentation-animals__title, .presentation-landscape__title {
+  font-family: "squada one", sans-serif;
+  font-size: 2.3rem;
+}
+
+.presentation__welcome-text {
+  font-family: "raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.presentation__text {
+  font-family: "raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+.presentation-contacts__text, .presentation-events__text, .presentation-animals__text, .presentation-animals__text-link, .presentation-landscape__text, .presentation-landscape__text-link {
+  font-family: "raleway", sans-serif;
+  font-size: 1.3rem;
+}
+
+body {
+  color: #eae2b7;
+  font-family: "raleway", sans-serif;
+  background-color: #003049;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-nav__image {
+  width: 20rem;
+}
+.menu-nav__button {
+  background-color: #d62828;
+}
+.menu-nav__link {
+  color: #d62828;
+  transition: all 0.3s ease-in-out;
+}
+.menu-nav__link:hover {
+  color: #fcbf49;
+}
+.menu-nav__link-active {
+  color: #eae2b7;
+}
+
+.footer__link {
+  color: #fcbf49;
+}
+.footer__text {
+  color: #fcbf49;
+}
+
+.presentation__title {
+  color: #f77f00;
+}
+.presentation__welcome-text {
+  color: #d62828;
+}
+.presentation__image {
+  width: 50%;
+}
+
+.presentation-landscape__title {
+  color: #f77f00;
+}
+.presentation-landscape__text {
+  color: #eae2b7;
+}
+.presentation-landscape__image {
+  width: 50%;
+}
+.presentation-landscape__text-link--link {
+  color: #d62828;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: #fcbf49;
+}
+.presentation-landscape__text-link--link:hover {
+  color: #fcbf49;
+  text-decoration-color: #d62828;
+}
+
+.presentation-animals__title {
+  color: #f77f00;
+}
+.presentation-animals__text {
+  color: #eae2b7;
+}
+.presentation-animals__image {
+  width: 50%;
+}
+.presentation-animals__text-link--link {
+  color: #d62828;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: #fcbf49;
+}
+.presentation-animals__text-link--link:hover {
+  color: #fcbf49;
+  text-decoration-color: #d62828;
+}
+
+.presentation-events__title {
+  color: #f77f00;
+}
+.presentation-events__text {
+  color: #eae2b7;
+}
+.presentation-events__link {
+  color: #d62828;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: #fcbf49;
+}
+.presentation-events__link:hover {
+  color: #fcbf49;
+  text-decoration-color: #d62828;
+}
+
+.presentation-contacts__title {
+  color: #f77f00;
+}
+.presentation-contacts__text {
+  color: #eae2b7;
+}
+.presentation-contacts__text--by {
+  color: #fcbf49;
+}/*# sourceMappingURL=style.css.map */

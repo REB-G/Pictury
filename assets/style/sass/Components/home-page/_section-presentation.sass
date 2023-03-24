@@ -1,0 +1,17 @@
+@use "../../utils/_main" as utils
+
+.presentation
+
+    &__title
+        color: utils.$orange
+        @extend %title-1
+
+    &__welcome-text
+        @extend %text-l
+        color: utils.$dark-pink
+
+    &__text
+        @extend %text-m
+
+    &__image
+        width: 50%

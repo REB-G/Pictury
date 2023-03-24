@@ -1,0 +1,28 @@
+@use "../../utils/_main" as utils
+
+.presentation-animals
+
+    &__title
+        color: utils.$orange
+        @extend %title-2
+
+    &__text
+        @extend %text-s
+        color: utils.$ecru
+
+    &__image
+        width: 50%
+
+    &__text-link
+        @extend %text-s
+
+        &--link
+            color: utils.$dark-pink
+            transition: all 0.3s ease-in-out
+            text-decoration: underline
+            text-underline-offset: 0.2rem
+            text-decoration-color: utils.$light-orange
+
+            &:hover
+                color: utils.$light-orange
+                text-decoration-color: utils.$dark-pink

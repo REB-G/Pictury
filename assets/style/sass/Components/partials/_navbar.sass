@@ -1,0 +1,22 @@
+@use "../../utils/_main" as utils
+
+.menu-nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    &__image
+        width: 20rem
+
+    &__button
+        background-color: utils.$dark-pink
+
+    &__link
+        color: utils.$dark-pink
+        transition: all 0.3s ease-in-out
+
+        &:hover
+            color: utils.$light-orange
+
+    &__link-active
+        color: utils.$ecru
