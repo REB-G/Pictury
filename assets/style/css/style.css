@@ -13,7 +13,7 @@ ul {
   list-style: none;
 }
 
-.presentation__title {
+.contacts__title, .presentation__title {
   font-family: "squada one", sans-serif;
   font-size: 5rem;
 }
@@ -33,7 +33,7 @@ ul {
   font-size: 1.6rem;
 }
 
-.presentation-contacts__text, .presentation-events__text, .presentation-animals__text, .presentation-animals__text-link, .presentation-landscape__text, .presentation-landscape__text-link {
+.contacts__text, .presentation-contacts__text, .presentation-events__text, .presentation-animals__text, .presentation-animals__text-link, .presentation-landscape__text, .presentation-landscape__text-link {
   font-family: "raleway", sans-serif;
   font-size: 1.3rem;
 }
@@ -44,11 +44,6 @@ body {
   background-color: #003049;
 }
 
-.menu-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .menu-nav__image {
   width: 20rem;
 }
@@ -150,5 +145,15 @@ body {
   color: #eae2b7;
 }
 .presentation-contacts__text--by {
+  color: #fcbf49;
+}
+
+.contacts__title {
+  color: #f77f00;
+}
+.contacts__text {
+  color: #eae2b7;
+}
+.contacts__text--by {
   color: #fcbf49;
 }/*# sourceMappingURL=style.css.map */
