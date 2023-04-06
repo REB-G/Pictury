@@ -21,29 +21,27 @@
         <button class="menu-nav__button navbar-toggler m-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-            <ul class="navbar-nav justify-content-center">
-                <li class="nav-item">
-                    <p class="nav-link menu-nav__link-active" href="#">Accueil</p>
+        <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+            <ul class="navbar-nav justify-content-center p-5">
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link--active fs-5" href="#">Accueil</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="events.html">Evènements</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="events.html">Evènements</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="pictures.html">Galerie photos</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="pictures.html">Galerie photos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="contact.html">Nous contacter</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="contact.html">Nous contacter</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!--Main-->
-    <main>
-        <!--Start first section-->
+    <main class="home-page">
         <section class="presentation container text-center pt-3 pb-5">
-            <div class="">
+            <div>
                 <h1 class="presentation__title pb-3">Pictury</h1>
                 <p class="presentation__welcome-text pt-3">Notre passion, la photo de nature et d'animaux !</p>
                 <p class="presentation__text pt-3">Notre association regroupe des passionnés de la photographie. Nous photographons les animaux et la nature.
@@ -51,39 +49,32 @@
             </div>
             <img class="presentation__image img-fluid py-5" src="assets/images/others/appareil-photo.jpg" alt="image représantant un appareil photo">
         </section>
-        <!--End first section-->
 
-        <!--Start second section-->
         <section class="presentation-landscape container mt-5 text-center">
             <h2 class="presentation-landscape__title p-2">Photographie paysagère</h2>
-            <p class="presentation-landscape__text">
+            <p class="presentation-landscape__text pt-2">
                 Les paysages naturels sont magnifiques et pleins de mystère.
                 Il est important de les photoraphier de façon à les montrer tels qu'ils sont.
             </p>
-            <img class="presentation-landscape__image img-fluid" src="assets/images/landscapes/foret.jpg" alt="Photographie d'une forêt.">
+            <img class="presentation-landscape__image img-fluid p-2" src="assets/images/landscapes/foret.jpg" alt="Photographie d'une forêt.">
             <p class="presentation-landscape__text-link pt-2 pb-5">
                 Pour accéder à la galerie photo, c'est 
                 <a href="pictures.html" target="_blank" class="presentation-landscape__text-link--link">par ici.</a>
             </p>
         </section>
         
-        <!--End second section-->
-
-        <!--Start third section-->
         <section class="presentation-animals container mt-5 text-center">
             <h2 class="presentation-animals__title p-2">Photographie animalière</h2>
-            <p class="presentation-animals__text">
+            <p class="presentation-animals__text pt-2">
                 Photographier l'instant magique de notre rencontre avec un animal dans son habitat naturel. Voilà notre passion.
             </p>
-            <img class="presentation-animals__image img-fluid" src="assets/images/animals/faon.jpg" alt="Photographie d'un faon.">
+            <img class="presentation-animals__image img-fluid p-2" src="assets/images/animals/faon.jpg" alt="Photographie d'un faon.">
             <p class="presentation-animals__text-link pt-2 pb-5"> 
                 Pour accéder à la galerie photo, c'est  
                 <a href="pictures.html" target="_blank" class="presentation-animals__text-link--link">par ici.</a>
             </p>
         </section>
-        <!--End thrid section-->
 
-        <!--Start fourth section-->
         <section class="presentation-events container mt-5 text-center">
             <h2 class="presentation-events__title p-2">Nos évènements.</h2>
             <p class="presentation-events__text pb-5">
@@ -93,9 +84,7 @@
                 Pour consulter notre agenda, c'est <a href="events.html" target="_blank" class="presentation-events__link">par là.</a>
             </p>
         </section>
-        <!--End fourth section-->
 
-        <!--Start fith section-->
         <section class="presentation-contacts container mt-5 mb-5 text-center">
             <h2 class="presentation-contacts__title p-2">Nous contacter</h2>
             <p class="presentation-contacts__text">
@@ -134,9 +123,7 @@
             </div>
             <p class="presentation-contacts__text p-2 mb-5">A très vite !</p>
         </section>
-        <!--End fith section-->
-
-
+    </main>
 
     <footer class="footer container py-3 mb-4 mt-5">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
