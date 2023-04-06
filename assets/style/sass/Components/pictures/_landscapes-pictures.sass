@@ -1,23 +1,21 @@
 @use "../../utils/_main" as utils
 
-.main-events
+.landscapes-pictures
 
     &__title
         color: utils.$orange
-        @extend %title-1
+        @extend %title-2
 
-    &__text
-        @extend %text-s
-        color: utils.$ecru
+    &__carousel
 
-.events
-    margin-bottom: 20%
-
-    &__card
         &--title
-            @extend %title-2
             color: utils.$light-orange
+            @extend %title-3
 
-        &--description
+        &--text
             @extend %text-s
+            color: utils.$ecru
+
+        &--direction
             color: utils.$dark-pink
+            @extend %text-s

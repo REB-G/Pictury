@@ -13,14 +13,19 @@ ul {
   list-style: none;
 }
 
-.contacts__title, .presentation__title {
+.main-events__title, .main-pictures__title, .contacts__title, .presentation__title {
   font-family: "squada one", sans-serif;
   font-size: 5rem;
 }
 
-.presentation-contacts__title, .presentation-events__title, .presentation-animals__title, .presentation-landscape__title {
+.events__card--title, .landscapes-pictures__title, .animals-pictures__title, .presentation-contacts__title, .presentation-events__title, .presentation-animals__title, .presentation-landscape__title {
   font-family: "squada one", sans-serif;
   font-size: 2.3rem;
+}
+
+.landscapes-pictures__carousel--title, .animals-pictures__carousel--title {
+  font-family: "squada one", sans-serif;
+  font-size: 1.7rem;
 }
 
 .presentation__welcome-text {
@@ -33,7 +38,7 @@ ul {
   font-size: 1.6rem;
 }
 
-.contacts__text, .presentation-contacts__text, .presentation-events__text, .presentation-animals__text, .presentation-animals__text-link, .presentation-landscape__text, .presentation-landscape__text-link {
+.main-events__text, .events__card--description, .pictures-communication__text, .landscapes-pictures__carousel--text, .landscapes-pictures__carousel--direction, .animals-pictures__carousel--text, .animals-pictures__carousel--direction, .main-pictures__text, .contacts__text, .contacts__text--by, .presentation-contacts__text, .presentation-events__text, .presentation-animals__text, .presentation-animals__text-link, .presentation-landscape__text, .presentation-landscape__text-link {
   font-family: "raleway", sans-serif;
   font-size: 1.3rem;
 }
@@ -57,7 +62,7 @@ body {
 .menu-nav__link:hover {
   color: #fcbf49;
 }
-.menu-nav__link-active {
+.menu-nav__link--active {
   color: #eae2b7;
 }
 
@@ -66,6 +71,10 @@ body {
 }
 .footer__text {
   color: #fcbf49;
+}
+
+.home-page {
+  margin-bottom: 10%;
 }
 
 .presentation__title {
@@ -156,4 +165,80 @@ body {
 }
 .contacts__text--by {
   color: #fcbf49;
+}
+
+.main-pictures__title {
+  color: #f77f00;
+}
+.main-pictures__text {
+  color: #eae2b7;
+}
+
+.animals-pictures__title {
+  color: #f77f00;
+}
+.animals-pictures__carousel--title {
+  color: #fcbf49;
+}
+.animals-pictures__carousel--text {
+  color: #eae2b7;
+}
+.animals-pictures__carousel--direction {
+  color: #d62828;
+}
+
+.landscapes-pictures__title {
+  color: #f77f00;
+}
+.landscapes-pictures__carousel--title {
+  color: #fcbf49;
+}
+.landscapes-pictures__carousel--text {
+  color: #eae2b7;
+}
+.landscapes-pictures__carousel--direction {
+  color: #d62828;
+}
+
+.pictures-communication__text {
+  color: #eae2b7;
+}
+.pictures-communication__links--contacts {
+  color: #fcbf49;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: #d62828;
+}
+.pictures-communication__links--contacts:hover {
+  color: #d62828;
+  text-decoration-color: #fcbf49;
+}
+.pictures-communication__links--events {
+  color: #fcbf49;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: #d62828;
+}
+.pictures-communication__links--events:hover {
+  color: #d62828;
+  text-decoration-color: #fcbf49;
+}
+
+.main-events__title {
+  color: #f77f00;
+}
+.main-events__text {
+  color: #eae2b7;
+}
+
+.events {
+  margin-bottom: 20%;
+}
+.events__card--title {
+  color: #fcbf49;
+}
+.events__card--description {
+  color: #d62828;
 }/*# sourceMappingURL=style.css.map */

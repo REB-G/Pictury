@@ -1,0 +1,29 @@
+@use "../../utils/_main" as utils
+
+.pictures-communication
+    &__text
+        @extend %text-s
+        color: utils.$ecru
+    
+    &__links
+        &--contacts
+            color: utils.$light-orange
+            transition: all 0.3s ease-in-out
+            text-decoration: underline
+            text-underline-offset: 0.2rem
+            text-decoration-color: utils.$dark-pink
+
+            &:hover
+                color: utils.$dark-pink
+                text-decoration-color: utils.$light-orange
+
+        &--events
+            color: utils.$light-orange
+            transition: all 0.3s ease-in-out
+            text-decoration: underline
+            text-underline-offset: 0.2rem
+            text-decoration-color: utils.$dark-pink
+
+            &:hover
+                color: utils.$dark-pink
+                text-decoration-color: utils.$light-orange
