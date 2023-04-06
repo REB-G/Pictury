@@ -20,26 +20,71 @@
         <button class="menu-nav__button navbar-toggler m-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-            <ul class="navbar-nav justify-content-center">
-                <li class="nav-item">
-                    <p class="nav-link menu-nav__link-active" href="#">Accueil</p>
+        <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+            <ul class="navbar-nav justify-content-center p-5">
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="index.html">Accueil</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="events.html">Evènements</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link--active fs-5" href="#">Evènements</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="pictures.html">Galerie photos</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="pictures.html">Galerie photos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="contact.html">Nous contacter</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="contact.html">Nous contacter</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <main class="container mt-5 mb-5 text-center">
-
+    <main class="container mt-5 text-center events">
+        <section class="main-events">
+            <h1 class="main-events__title pb-5">Nos évènements</h1>
+            <p class="main-events__text pt-3 pb-5">
+                Venez nous retrouver lors de nos évènements et découvrez les oeuvres de nos membres !
+            </p>
+        </section>
+        <section class="m-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/images/events/field_of_flowers.jpg" class="card-img-top" alt="Champs de fleurs">
+                        <div class="card-body">
+                            <h5 class="card-title events__card--title">Exposition du printemps et des fleurs colorées</h5>
+                            <p class="card-text events__card--description">L'exposition aura lieu du 15 avril au 15 mai 2023. Toutes les photographies seront sur le thème du printemps ! L'entrée est gratuite. Nous vous attendons nombreux !</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/images/events/beach_landscape.jpg" class="card-img-top" alt="Plage sauvage">
+                        <div class="card-body">
+                            <h5 class="card-title events__card--title">Exposition de l'été, du soleil et des vacances</h5>
+                            <p class="card-text events__card--description">L'exposition aura lieu du 15 juillet au 15 août 2023. Toutes les photographies seront sur le thème de l'été et du soleil ! L'entrée est gratuite. Nous vous attendons nombreux !</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/images/events/forest_landscape.jpg" class="card-img-top" alt="Forêt automnale">
+                            <div class="card-body">
+                                <h5 class="card-title events__card--title">Exposition de l'automne et de la nature colorée</h5>
+                                <p class="card-text events__card--description">L'exposition aura lieu du 15 octobre au 15 Novembre 2023. Toutes les photographies seront sur le thème de l'automne et de la nature ! L'entrée est gratuite. Nous vous attendons nombreux !</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/images/events/winter_landscape.jpg" class="card-img-top" alt="Forêt enneigée">
+                            <div class="card-body">
+                                <h5 class="card-title events__card--title">Exposition de l'hiver, de la neige et de la magie</h5>
+                                <p class="card-text events__card--description">L'exposition aura lieu du 15 Décembre au 15 Janvier 2023. Toutes les photographies seront sur le thème de l'hiver, la neige et la magie! L'entrée est gratuite. Nous vous attendons nombreux !</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </main>
 
     <footer class="footer container py-3 mb-4 mt-5">
