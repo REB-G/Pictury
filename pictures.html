@@ -20,26 +20,112 @@
         <button class="menu-nav__button navbar-toggler m-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-            <ul class="navbar-nav justify-content-center">
-                <li class="nav-item">
-                    <p class="nav-link menu-nav__link-active" href="#">Accueil</p>
+        <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+            <ul class="navbar-nav justify-content-center p-5">
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="index.html">Accueil</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="events.html">Evènements</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="events.html">Evènements</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="pictures.html">Galerie photos</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link--active fs-5" href="#">Galerie photos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-nav__link" href="contact.html">Nous contacter</a>
+                <li class="nav-item p-2">
+                    <a class="nav-link menu-nav__link fs-5" href="contact.html">Nous contacter</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <main class="container mt-5 mb-5 text-center">
-
+    <main class="container mt-5 mb-5 text-center d-flex flex-column align-items-center justify-content-center">
+        <section class="main-pictures">
+            <h1 class="main-pictures__title pb-5">Galerie photos</h1>
+            <p class="main-pictures__text pt-3">Bienvenue sur la galerie photos !</p>
+            <p class="main-pictures__text pt-3">Chaque photographie a été prise par des amoureux des animaux et de la nature.</p>
+            <p class="main-pictures__text pt-3 pb-5">Bonne visite !</p>
+        </section>
+        <section class="animals-pictures m-5 w-75">
+            <h2 class="animals-pictures__title pt-5 pb-5">Photographies d'animaux</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner pb-5">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/images/animals/renard.jpg" alt="Renard faisant la sieste">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/animals/raton-laveur.jpg" alt="Raton-laveur curieux">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/animals/chouette.jpg" alt="Chouette dans son mileu naturel">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/animals/museau-chien.jpg" alt="L'amour d'un chien">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/animals/faon.jpg" alt="Faon dans la forêt">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+            </div>
+        </section>
+        <section class="landscapes-pictures mt-5 m-5 w-75">
+            <h2 class="landscapes-pictures__title pt-5 pb-5">Photographies de paysages</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/landscapes/arbres.jpg" alt="Arbre majestueux">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/landscapes/coucher-soleil.jpg" alt="Magnifique coucher de soleil">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/landscapes/foret.jpg" alt="Forêt enchantée">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/landscapes/paysage-irlande.jpg" alt="Magnifique paysage Irlandais">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/landscapes/village-sur-lac.jpg" alt="Village sur le lac">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+        </section>
+        <section class="pictures-communication">
+            <p class="pt-5 pictures-communication__text">N'hésitez pas à nous rejoindre ou à patriciper à nos évènements !</p>
+            <div class="d-flex align-content-center flex-column pb-5 pictures-communication__links">
+                <a class="p-3 pictures-communication__links--contacts" href="contact.html">Nous contacter</a>
+                <a class="pictures-communication__links--events" href="events.html">Nos évènements</a>
+            </div>
+        </section>
     </main>
 
     <footer class="footer container py-3 mb-4 mt-5">
